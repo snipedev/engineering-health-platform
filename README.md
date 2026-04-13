@@ -1,4 +1,4 @@
-# engineering-health-platform
+# Engineering-health-platform
 
 ## Problem Statement
 
