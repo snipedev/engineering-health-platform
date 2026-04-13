@@ -12,22 +12,8 @@ This separation mirrors real‑world platform architectures where ingestion and 
 
 ## High-level Architecture
 
-+-------------+        +-------------------------+
-| GitHub API  | -----> | Go Ingestion & Metrics  |
-+-------------+        | Engine (Batch Job)      |
-                       +-----------+-------------+
-                                   |
-                                   v
-                           +---------------+
-                           | PostgreSQL    |
-                           | (Metrics DB)  |
-                           +-------+-------+
-                                   |
-                                   v
-                         +-------------------+
-                         | .NET REST API     |
-                         | (Read-Only)       |
-                         +-------------------+
+<img width="526" height="395" alt="image" src="https://github.com/user-attachments/assets/36e85e39-9b8d-414f-b07b-8d788f94a3de" />
+
 ``
 
 ## Core Components
